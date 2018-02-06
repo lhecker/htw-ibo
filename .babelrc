@@ -1,0 +1,19 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": {
+                "browsers": [
+                    "last 2 Chrome versions",
+                    "last 2 Firefox versions"
+                ]
+            }
+        }]
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-transform-react-constant-elements",
+        "@babel/plugin-transform-react-inline-elements",
+        "@babel/transform-react-display-name",
+        "@babel/transform-react-jsx"
+    ]
+}

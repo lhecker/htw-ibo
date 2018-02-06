@@ -1,0 +1,43 @@
+{
+    "name": "immutable",
+    "version": "0.1.0",
+    "author": "Leonard Hecker <leonard@hecker.io>",
+    "license": "UNLICENSED",
+    "private": true,
+    "scripts": {
+        "dev": "webpack-dev-server --progress",
+        "dev-prod": "webpack-dev-server --progress --env.production",
+        "build": "webpack --progress --env.production",
+        "clean": "rimraf dist"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.0.0-beta",
+        "@babel/plugin-proposal-class-properties": "^7.0.0-beta",
+        "@babel/plugin-transform-react-constant-elements": "^7.0.0-beta",
+        "@babel/plugin-transform-react-display-name": "^7.0.0-beta",
+        "@babel/plugin-transform-react-inline-elements": "^7.0.0-beta",
+        "@babel/plugin-transform-react-jsx": "^7.0.0-beta",
+        "@babel/preset-env": "^7.0.0-beta",
+        "babel-loader": "^8.0.0-beta",
+        "bootstrap": "^4.0.0",
+        "css-loader": "^0.28.9",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "html-webpack-plugin": "^2.30.1",
+        "immutable": "^4.0.0-rc.9",
+        "node-sass": "^4.7.2",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-redux": "^5.0.6",
+        "redux": "^3.7.2",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.20.1",
+        "uglifyjs-webpack-plugin": "^1.1.8",
+        "vue": "^2.5.13",
+        "vue-loader": "^14.1.1",
+        "vue-template-compiler": "^2.5.13",
+        "vuex": "^3.0.1",
+        "webpack": "^3.10.0",
+        "webpack-dev-server": "^2.11.1"
+    }
+}

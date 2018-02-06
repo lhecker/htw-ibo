@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+.pixel-canvas-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.pixel-canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    user-select: none;
+}
+
+.pixel-canvas-cell {
+    &:hover {
+        box-shadow: inset 0 0 0 1px #000;
+    }
+}
